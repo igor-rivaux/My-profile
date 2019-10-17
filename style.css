@@ -1,0 +1,78 @@
+body{
+	background-color: rgb(45,45,45);
+	color: rgb(30,30,30); 
+	font-family: 'Lora',serif;
+	}
+h1,h2,h3{
+	font-family: 'Roboto Mono', moospace;
+}
+
+h1{
+	color: #FD5E17;
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size: 50px;
+	text-transform: uppercase;
+	}
+
+h2{
+	color: rgb(100,100,100);
+	font-size: 24px;
+	font-weight: lighter;
+	}
+
+a{
+	text-decoration: none;
+	color: #FD5E17;
+}
+a:hover {
+	color: yelllow;
+	}
+
+div {
+	background: white;
+	border: 1px black;
+	margin: 10px;
+	}
+
+/* Custom design with classes*/
+.container {
+	width:700px;
+	margin:40px auto;
+	}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 30px;
+	margin: 20px 0px;
+	text-align: center;
+	}
+
+.img-circle {
+	border-radius: 50%
+	}
+.btn-blue {
+	background-color: #FD5E17;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 30px;
+	}
+.btn-blue:hover {
+	background-color: green;
+	color: white;
+	}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding-left: 10px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
